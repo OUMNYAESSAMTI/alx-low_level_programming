@@ -4,9 +4,9 @@
 #include "lists.h"
 
 /**
- * main - verify the code
- *
- * Return: 0 in all cases.
+ * main - check the code
+ * 
+ * Return: Always 0.
  */
 int main(void)
 {
@@ -25,7 +25,7 @@ int main(void)
     new->n = 9;
     new->next = head;
     head = new;
-    n = listint_len(head);
+    n = print_listint(head);
     printf("-> %lu elements\n", n);
     free(new);
     return (0);
