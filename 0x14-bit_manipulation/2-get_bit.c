@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * 
- *get_bit - retrieves the bit value at a specified index within a decimal number
- *@n: the number under examination
- *@index: the targeted bit index
+ * get_bit - returns the value of a bit at an index in a decimal number
+ * @n: number to search
+ * @index: index of the bit
  *
  * Return: value of the bit
  */
